@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 
 // register the models
 import '../app/models/video.model.js'
+import '../app/models/audio.model.js'
 
 
 export default () => {

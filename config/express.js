@@ -1,5 +1,6 @@
 import express from 'express'
 import {homeRoute} from '../app/routes/home.route.js'
+import {videoRoute} from '../app/routes/video.route.js'
 
 export default () => {
     const app = express()
@@ -9,6 +10,7 @@ export default () => {
 
     // register routes
     homeRoute(app)
+    videoRoute(app)
 
     return app
 }
